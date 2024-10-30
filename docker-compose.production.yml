@@ -1,3 +1,4 @@
+
 version: '3'
 
 volumes:
@@ -22,9 +23,9 @@ services:
   frontend:
     image: yakovlevkirevg/kittygram_frontend
     env_file: .env
-    command: cp -r /app/build/. /static/
+    command: cp -r /app/build/. /frontend_static/
     volumes:
-      - static:/static
+      - static:/frontend_static
   gateway:
     image: yakovlevkirevg/kittygram_gateway
     env_file: .env
