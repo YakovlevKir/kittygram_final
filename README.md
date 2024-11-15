@@ -33,25 +33,18 @@ ALLOWED_HOSTS=localhost
 ```
 
 1. Клонируйте репозиторий:
-
- ```bash
-
-   git clone https://github.com/YakovlevKir/kittygram_final.git
-
-   cd kittygram_final
-   
+```bash
+git clone https://github.com/YakovlevKir/kittygram_final.git
+cd kittygram_final
 ```
 
 2. Запустите проект с использованием Docker Compose:
 
 ```bash
-
-   docker-compose -f docker-compose.production.yml up --build
-
+docker-compose -f docker-compose.production.yml up --build
 ```
 
 3. Откройте приложение в браузере по адресу: [http://localhost:8000](http://localhost:8000)
-
 
 ## Автор
 
